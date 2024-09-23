@@ -159,6 +159,7 @@ a {
   font-weight: 400;
   font-size: 128px;
   line-height: 0.9;
+  width: auto;
 }
 
 .rates__item-description {
@@ -187,7 +188,7 @@ a {
 .portfolio__inner-title {
   font-size: 64px;
   font-weight: 400;
-  font-family: 'Anton';
+  font-family: "Anton";
   line-height: 1;
   margin-bottom: 36px;
 }
@@ -214,22 +215,22 @@ a {
   align-items: center;
   gap: 5px;
   margin-top: 21px;
-  margin-bottom: 35px;
+  margin-bottom: 23px;
 }
 
 .portfolio__list-item {
-  padding: 30px 30px 42px;
+  padding: 30px;
   border-radius: 10px;
   border: 1px solid #737373;
   max-width: 300px;
 }
 
 .knowledge__item-title {
-  color: #784DC7;
+  color: #784dc7;
   padding: 5px 8px;
-  background-color: #E9DFFC;
+  background-color: #e9dffc;
   border-radius: 12px;
-  border: 1px solid #BE9FF6;
+  border: 1px solid #be9ff6;
   font-size: 14px;
   line-height: 1;
   letter-spacing: -1px;
@@ -246,6 +247,8 @@ a {
   font-size: 16px;
   font-weight: 100;
   padding: 11px 56px;
+  display: block;
+  text-align: center;
 }
 
 .item-part1-text {
@@ -271,7 +274,7 @@ a {
 
 .skills__title {
   font-size: 36px;
-  font-weight: 600; 
+  font-weight: 600;
   margin-bottom: 20px;
   letter-spacing: -2.5px;
 }
@@ -292,7 +295,7 @@ a {
 }
 
 .skills__inner-title {
-  font-family: 'Anton';
+  font-family: "Anton";
   font-weight: 600px;
   font-size: 64px;
   margin-bottom: 50px;
@@ -301,7 +304,7 @@ a {
 .recommendation {
   background-image: url(../images/unsplash_wHJ5L9KGTl4.png);
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
 }
 
 .recommendation__inner {
@@ -311,14 +314,14 @@ a {
 }
 
 .recommendation__title {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 48px;
   line-height: 105%;
 }
 
 .recommendation__text {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 700;
   font-style: italic;
   font-size: 48px;
@@ -332,44 +335,109 @@ a {
   margin-top: 60px;
 }
 
-.about_me {
+.about_me__inner {
   margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .about_me__title {
+  font-weight: 400;
   font-size: 64px;
-  font-family: 'Anton';
+  font-family: "Anton";
 }
 
-.about_me__item-title {
+.about_me__title-wrapper {
   display: flex;
   align-items: center;
   gap: 38px;
-  margin-bottom: 76px;
+}
+
+.about_me__zigzag {
+  width: 267px;
+  height: 30px;
 }
 
 .about_me__text {
   font-size: 36px;
-  max-width: 665px;
-  letter-spacing: -1.5px;
   font-weight: 600;
+  letter-spacing: -2px;
 }
 
-.about_me__list-item {
+.text1 {
+  margin-top: 76px;
+  padding-right: 130px;
+}
+
+.about_me__text-wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 72px;
+}
+
+.about_me__text-wrapper3 {
+  display: flex;
+  align-items: center;
+  padding-right: 126px;
+}
+
+.footer__wrapper-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  border-radius: 15px;
+  position: absolute;
+  top: -85px;
+  left: 0;
+  right: 0;
+  margin: 0 100px;
+  background: url(../images/Frame\ 35.svg) right top no-repeat,
+    url(../images/Frame\ 36.svg) left bottom no-repeat;
+  background-color: #a87ff3;
+}
+
+.footer__block-text {
+  font-size: 22px;
+  letter-spacing: -1.5px;
+}
+
+.footer {
+  background-color: #292929;
+  margin-top: 315px;
+  padding-bottom: 47px;
+}
+
+.footer__wrapper {
+  border-bottom: #e6e6e6 solid 1px;
+}
+
+.footer__logo {
+  width: 164px;
+  height: 61px;
+}
+
+.footer__inner-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 146px 0 30px;
 }
 
-.photo1 {
-  max-width: 746px;
-  max-height: 530px;
-  margin-top: 100px;
+.footer__menu-list {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: 100;
 }
 
-.photo2 {
-  max-width: 794px;
-  max-height: 531px;
+.relative {
+  position: relative;
 }
 
-
+.footer__block-img {
+  position: absolute;
+  bottom: 0;
+  left: -33px;
+}
