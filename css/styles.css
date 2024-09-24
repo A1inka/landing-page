@@ -159,10 +159,10 @@ a {
   font-weight: 400;
   font-size: 128px;
   line-height: 0.9;
-  width: auto;
 }
 
 .rates__item-description {
+  display: inline-block;
   font-weight: 500;
   font-size: 36px;
   line-height: 1;
@@ -440,4 +440,28 @@ a {
   position: absolute;
   bottom: 0;
   left: -33px;
+}
+
+.text__gradient1 {
+  background: linear-gradient(to right, #fa709a, #fee140);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text__gradient2 {
+  background: linear-gradient(to right, #84FAB0, #8FD3F4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text__gradient3 {
+  background: linear-gradient(to right, #E0C3FC, #8EC5FC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text__gradient4 {
+  background: linear-gradient(to right, #FFE76A, #65C8FF, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

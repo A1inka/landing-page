@@ -1,0 +1,20 @@
+@media (max-width: 1024px) {
+    .top__inner {
+        background-image: none;
+    }
+    .top__img-portal {
+        width: 0;
+    }
+    .rates__image {
+        width: 0;
+    }
+    .rates__item-title {
+        font-size: 64px;
+    }
+    .rates__item-description {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 21px;
+        max-width: 351px;
+    }
+}
